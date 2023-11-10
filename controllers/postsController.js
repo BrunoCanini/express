@@ -17,7 +17,7 @@ function index (req, res) {
         html.push(`<li>
             <h3>${post.titolo}</h3>
             <p>${post.contenuto}</p>
-            <img src="${post.immagine}" alt="" style="width: 100px">
+            <img src="/img/${post.immagine}" alt="" style="width: 100px">
         </li>`);
         }
         
